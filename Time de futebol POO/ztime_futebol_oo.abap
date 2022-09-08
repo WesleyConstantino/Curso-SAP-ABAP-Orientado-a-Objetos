@@ -2,9 +2,9 @@ REPORT ztime_futebol_oo.
 
 *Curiosidade! Todas as classes Abap ficam no mesmo arquivo
 
-"aqui informo que a classe lcl_jogador existe e adio sua definição
-"isso é necessário aqui, pois o Abap faz a leitura de cima para baixo
-"sendo assim, se uma classe referanciada dentro de outra ainda não tiver sido lida, o programa apresentará erros de compilação
+"aqui informo que a classe lcl_jogador e as demais declaradas existem e deixo como adiadas as suas definições
+"isso é necessário aqui, pois o Abap faz a leitura do código de cima para baixo
+"sendo assim, se uma classe referanciada dentro de outra classe ainda não tiver sido lida e não tiver sido declarada aqui, o programa apresentará erros de compilação
 CLASS lcl_jogador DEFINITION DEFERRED.
 CLASS lcl_chuteira DEFINITION DEFERRED.
 CLASS lcl_selecao DEFINITION DEFERRED.

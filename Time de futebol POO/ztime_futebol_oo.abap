@@ -1,5 +1,7 @@
 REPORT ztime_futebol_oo.
 
+*Curiosidade! Todas as classes Abap ficam no mesmo arquivo
+
 "aqui informo que a classe lcl_jogador existe e adio sua definição
 "isso é necessário aqui, pois o Abap faz a leitura de cima para baixo
 "sendo assim, se uma classe referanciada dentro de outra ainda não tiver sido lida, o programa apresentará erros de compilação

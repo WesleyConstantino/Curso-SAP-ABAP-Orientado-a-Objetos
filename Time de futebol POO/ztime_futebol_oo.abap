@@ -80,7 +80,7 @@ CLASS lcl_campo DEFINITION.
 ENDCLASS.
 
 
-"implementação do método deve ser feita assim
+"implementação do método deve ser feita assim, fora de suas classes
 CLASS lcl_pessoa IMPLEMENTATION.
      METHOD falar.
         "codificação aqui

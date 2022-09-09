@@ -28,7 +28,7 @@ START-OF-SELECTION.
       WRITE:/ 'Objeto não criado'.
     ENDIF.
 
-'implememtação do método
+"implememtação do método
 CLASS o_loucutor IMPLEMENTATION.
   METHOD falar.
   ENDMETHOD.

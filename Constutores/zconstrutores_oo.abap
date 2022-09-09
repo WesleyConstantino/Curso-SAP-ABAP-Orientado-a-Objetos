@@ -29,6 +29,7 @@ START-OF-SELECTION.
          iv_nome = 'Wesley'.
 
 "aqui não foi explicado, todo esse bloco até o ENDMETHOD
+"*******************************************************
 CLASS lcl_dominio IMPLEMENTATION.
   METHOD resgatar_valores.
     CALL FUNCTION 'DD_DOMA_GET'
@@ -46,7 +47,7 @@ CLASS lcl_dominio IMPLEMENTATION.
           "Deu erro, mas não faça nada
        ENDIF.
   ENDMETHOD.
-
+"*******************************************************
 
   METHOD construtor.
 "transfere o valor de nome para iv_nome

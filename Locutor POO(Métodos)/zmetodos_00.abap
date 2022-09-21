@@ -9,12 +9,12 @@ CLASS lcl_loucutor DEFINITION.
 
    CLASS-METHODS:
        _geral_loucutor IMPORTING iv_nome TYPE string
-                                 iv_idade TYPE i OPITIONAL
+                                 iv_idade TYPE i OPTIONAL
                        EXPORTING eo_loucutor TYPE REF TO lcl_loucutor.
 
    METHODS:
        	constructor IMPORTING iv_nome TYPE string 
-                              iv_idade TYPE i OPITIONAL,
+                              iv_idade TYPE i OPTIONAL,
 
         falar IMPORTING iv_mensagem TYPE string.
 
